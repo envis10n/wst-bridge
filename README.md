@@ -1,9 +1,13 @@
 
 # WST-Bridge
 
+![Mudlet using WST-Bridge] (/images/mudlet_wst-bridge.png)
+
 A bridge for `ws-telnet` servers to be accessed via a local TCP proxy.
 
-This allows a regular telnet client to interface with a server running WST (`ws-telnet` Telnet over WebSockets).
+This allows a regular telnet client / MUD client to interface with a server running WST (`ws-telnet` Telnet over WebSockets).
+
+Currently known working MUD clients: Mudlet
 
 ## Config
 

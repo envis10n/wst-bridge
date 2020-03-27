@@ -16,7 +16,8 @@
     "license": "MIT",
     "files": [
         "build",
-        "bin"
+        "bin",
+        "images"
     ],
     "devDependencies": {
         "@types/node": "^12.12.31",
