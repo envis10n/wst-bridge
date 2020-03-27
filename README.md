@@ -1,7 +1,7 @@
 
 # WST-Bridge
 
-![Mudlet using WST-Bridge] (/images/mudlet_wst-bridge.png)
+![Mudlet using WST-Bridge] (https://raw.githubusercontent.com/envis10n/wst-bridge/master/images/mudlet_wst-bridge.png)
 
 A bridge for `ws-telnet` servers to be accessed via a local TCP proxy.
 
