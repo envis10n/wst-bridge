@@ -1,6 +1,6 @@
 {
     "name": "wst-bridge",
-    "version": "0.1.2",
+    "version": "0.1.3",
     "description": "WST <-> TCP bridge",
     "main": "build/main.js",
     "scripts": {
