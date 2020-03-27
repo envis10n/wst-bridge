@@ -1,19 +1,26 @@
 {
-  "name": "wst-bridge",
-  "version": "0.1.0",
-  "description": "WST <-> TCP bridge",
-  "main": "build/main.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "author": "envis10n <envis10n@protonmail.com>",
-  "license": "MIT",
-  "devDependencies": {
-    "@types/node": "^12.12.31",
-    "@types/ws": "^7.2.3",
-    "typescript": "^3.8.3"
-  },
-  "dependencies": {
-    "ws": "^7.2.3"
-  }
+    "name": "wst-bridge",
+    "version": "0.1.0",
+    "description": "WST <-> TCP bridge",
+    "main": "build/main.js",
+    "scripts": {
+        "build": "tsc"
+    },
+    "bin": {
+        "wst-bridge": "./bin/wst-bridge"
+    },
+    "author": "envis10n <envis10n@protonmail.com>",
+    "license": "MIT",
+    "files": [
+        "build",
+        "bin"
+    ],
+    "devDependencies": {
+        "@types/node": "^12.12.31",
+        "@types/ws": "^7.2.3",
+        "typescript": "^3.8.3"
+    },
+    "dependencies": {
+        "ws": "^7.2.3"
+    }
 }
