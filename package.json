@@ -9,6 +9,9 @@
     "bin": {
         "wst-bridge": "./bin/wst-bridge"
     },
+    "repository": "https://github.com/envis10n/wst-bridge",
+    "bugs": "https://github.com/envis10n/wst-bridge/issues",
+    "homepage": "https://github.com/envis10n/wst-bridge",
     "author": "envis10n <envis10n@protonmail.com>",
     "license": "MIT",
     "files": [
